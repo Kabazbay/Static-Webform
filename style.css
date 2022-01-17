@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';   
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-size: cover;
+}
+form{
+    background-color: rgba(245, 245, 245, 0.904);
+    
+    width: 20rem;
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+}
+form h3.portal{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    margin-left: 1rem;
+}
+.container .name label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.container .name input{
+    width: 16rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    padding: 7px;
+    outline: none;
+    
+}
+select{
+    width: 16rem;
+    padding: 7px;
+    outline: gray;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: fit-content;
+}
+.submit button{
+    margin-top: 5px;
+    padding: 7px;
+    outline: none;
+    width: 16rem;   
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 0px      ;
+}
